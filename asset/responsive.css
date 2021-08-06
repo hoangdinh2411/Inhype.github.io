@@ -1,0 +1,433 @@
+@media (min-width: 990px) and (max-width: 1199px) {
+    .navigation__item-link {
+        padding: 12px 12px;
+    }
+
+    .slider .post-container {
+        padding-top: 80%;
+    }
+
+    .slider-pagination {
+       
+        width: 100%;
+    }
+
+    .page.active {
+        margin-top: -30px;
+    }
+    .recent .post-container{
+        padding-top: 80%;
+    }
+    
+    .tecknology .post-container, 
+    .selected .post-container, 
+    .art-culture .post-container,
+     .hightlight .post-container,
+      .lastest-posts .post-container {
+        padding-top: 60%;
+    }
+    .recent-right{
+        padding-left: 60px;
+    }
+
+
+    .hightlight .swiper-slide {
+        width: 160px;
+    
+    }
+    .hightlight .swiper {
+        width: 900px;
+    }
+    
+    .travel .post-container{
+        margin-bottom: 40px;
+    
+    }
+    .sub-title:first-child {
+        margin: 20px;
+    }
+
+    .sub-title p {
+        margin: 20px;
+
+    }
+
+    .more-from-inhype .swiper {
+        width: 900px;
+    }
+    .more-from-inhype .swiper-slide {
+        width: 900px;
+    }
+
+    footer{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .footer-bottom-container{
+        text-align: center;
+    }
+
+    .footer-bottom-container p{
+        margin-bottom: 40px;
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width:740px) and (max-width: 989px){
+   
+
+    
+
+    
+
+    .top-block .post-details{
+        margin-bottom: 40px;
+    }
+
+    .top-block .post-title a,
+    .recent-right .post-title a,
+    .lastest-posts .posts-left .post-title a,
+    .lastest-posts .posts-right .post-title a,
+    .tecknology .post-title a{
+        font-size: 1.3em;
+    }
+
+
+    .recent-left .post-title a,
+    .art-culture .post-title a,
+    .selected-left .post-title a
+    
+    .lastest-posts .post-top .post-title a{
+    
+        font-size: 2em;
+    }
+
+
+    .slider .vcard,
+    .slider .vcard a,
+    .slider .post-date,
+    .slider .post-read-time,
+    
+    /* Recent */
+    .recent-left .vcard,
+    .recent-left .vcard a,
+    .recent-left .post-date,
+    .recent-left .post-read-time,
+
+    /* Culture */
+    .art-culture .post-date,
+    .art-culture .post-read-time,
+    /* Travel */
+    .travel .post-date,
+    .travel .post-read-time,
+    /* Videos */
+    .videos .post-date,
+    .videos .post-read-time,
+    /* More from inhype */
+    .more-from-inhype .vcard a,
+    .more-from-inhype .post-title a,
+    /* Lastest posts */
+    .lastest-posts .post-top .vcard,
+    .lastest-posts .post-top .vcard a,
+    .lastest-posts .post-top .post-date,
+    .lastest-posts .post-top .post-read-time
+
+    {
+        font-size: 1.5em;
+        
+    }
+
+    .post-excerpt{
+        font-size: 1.4em;
+    }
+
+    .recent .post-container,
+     .tecknology .post-container, 
+     .selected .post-container, 
+     .art-culture .post-container,
+      .hightlight .post-container, 
+      .lastest-posts .post-container{
+        margin-bottom: 40px;
+    }
+
+    .block-title h3 {
+        font-size: 3em;
+    }
+
+    .block-title h4 {
+        font-size: 1.3em;
+    }
+
+
+    .hightlight .swiper-slide {
+        width: 225px;
+    
+    }
+    .hightlight .swiper {
+        width: 720px;
+    }
+
+    .selected-right .post-title a {
+        font-size: 1.2em;
+    }
+
+    .more-from-inhype .swiper {
+        width: 600px;
+        display: flex;
+    }
+    .more-from-inhype .swiper-slide {
+        width: 620px;
+    }
+
+    .videos .post-details{
+        padding: 10px;
+    }
+
+    .videos .post-title a{
+        display: none;
+    }
+}
+
+
+@media (max-width: 989px) {
+    .header-menu{
+        display: none;
+    }
+    .main-menu{
+        box-shadow: none;
+    }
+    .main-menu-container{
+        width: 100%;
+    }
+    .main-menu__icon{
+        display: block;
+        padding:10px;
+        margin-right: 40px;
+        border: 1px solid rgba(0,0, 0, 0.2);
+        text-align: center;
+    }
+    .main-menu.open .main-menu-container ul{
+        display: block;
+
+    }
+    .main-menu-container ul{
+        position: absolute;
+        display: none;
+        width: 100%;
+        top: 99%;
+        z-index: 1000;
+        background-color:var(--color-white);
+        padding: 0 20px;
+        transform: 0.5s;
+
+    }
+
+    .sub-title:first-child {
+        font-size: 1.4em;
+        margin: 20px;
+    }
+
+    .sub-title p {
+        font-size: 1.2em;
+        margin: 20px;
+
+    }
+
+    .categories .count-post{
+        font-size: 1.2em;
+    }
+
+    footer{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .footer-bottom-container{
+        text-align: center;
+    }
+
+    .footer-bottom-container p{
+        margin-bottom: 40px;
+        font-size: 1.2em;
+    }
+   
+
+    .btn--subscribe{
+        display: none;
+    }
+    .btn-toggle-searchbar{
+        margin-left: auto;
+    }
+    .main-menu__item:hover .sub-menu.level-0 {
+        display: none;
+    }
+    .sub-menu.level-0 li:hover  .sub-menu.level-1{
+        display: none;
+    }
+
+    .navigation .fa-angle-down{
+        display: none;
+    }
+    .navigation .fa-angle-right{
+        display: inline-block;
+        margin-left: auto;
+    }
+    .navigation__item-link{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px;
+    }
+    .main-menu__item{
+        padding: 5px;
+    }
+    .top-line-menu{
+        height: 100px;
+    }
+
+
+    .top-line-menu{
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .slider .post-container {
+        padding-top: 100%;
+    }
+
+    .slider .post-details{
+        align-items: flex-start;
+    }
+
+    .slider .post-title{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .slider-pagination{
+        width: 100%;
+    }
+    .slider-pagination .page {
+        font-size: 1.2em;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .slider-pagination {
+        display: none;
+    }
+
+    .slider .post-title a {
+        font-size: 1.4rem;
+    }
+
+    .slider .post-details__inner {
+        
+         margin: 0;
+    }
+    
+    .post-details{
+        margin-bottom: 20px;
+    }
+
+    .recent-left .post-excerpt{
+        display: none;
+    }
+
+    .recent-left .post-details,
+     .art-culture .post-details,
+      .travel .post-details, 
+      .videos .post-details,
+       .lastest-posts .post-top .post-details{
+           padding: 10px;
+       }
+    
+    .top-block .post-title a,
+    .recent-right .post-title a,
+    .lastest-posts .posts-left .post-title a,
+    .lastest-posts .posts-right .post-title a,
+    .tecknology .post-title a{
+        font-size: 1em;
+    }
+
+
+    .recent-left .post-title a,
+    .art-culture .post-title a,
+    .selected-left .post-title a
+    
+    .lastest-posts .post-top .post-title a{
+    
+        font-size: 1em;
+    }
+
+
+    .slider .vcard,
+    .slider .vcard a,
+    .slider .post-date,
+    .slider .post-read-time,
+    
+    /* Recent */
+    .recent-left .vcard,
+    .recent-left .vcard a,
+    .recent-left .post-date,
+    .recent-left .post-read-time,
+
+    /* Culture */
+    .art-culture .post-date,
+    .art-culture .post-read-time,
+    /* Travel */
+    .travel .post-date,
+    .travel .post-read-time,
+    /* Videos */
+    .videos .post-date,
+    .videos .post-read-time,
+    /* More from inhype */
+    .more-from-inhype .vcard a,
+    .more-from-inhype .post-title a,
+    /* Lastest posts */
+    .lastest-posts .post-top .vcard,
+    .lastest-posts .post-top .vcard a,
+    .lastest-posts .post-top .post-date,
+    .lastest-posts .post-top .post-read-time
+
+    {
+        font-size: 1em;
+        
+    }
+
+    .hightlight .swiper-slide {
+        width: 350px;
+    
+    }
+    .hightlight .swiper {
+        width: 360px;
+    }
+
+   
+
+    .more-from-inhype .swiper {
+        width: 350px;
+        margin: 0;
+    }
+    .more-from-inhype .swiper-slide {
+        width: 350px;
+    }
+
+    .block-title h3 {
+        font-size: 1em;
+    }
+
+    .block-title h4 {
+        font-size: 1em;
+    }
+
+    .sub-form{
+        flex-direction: column;
+    }
+
+    .sub-form .input-box{
+        margin: 20px;
+    }
+}
+
